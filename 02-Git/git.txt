@@ -9,7 +9,14 @@
 8. git remove = untuk menghapus sebuah file
 9. dll
 
-- inisialisasi folder BELAJAR GIT DAN GITHUB
+- inisialisasi dan commit folder BELAJAR GIT DAN GITHUB
 1. buka terminal (ctrl + `) ketik git init
 2. ketik git status apakah ada file yang belum di track
 3. jika file belum di track ketik git add * (menambahakan semua file yang bulum untrack)
+4. apabila ingin mengembalikan file track ke untrack ketik
+git rm --cached * (mengembalikan semua file yang track)
+5. jika ingin commit sebuah file ketik git commit -m "<tulis pesan>"
+6. apabila anda baru pertama kali akan eror dikarenakan masih belum memasukkan email dan nam
+7. untuk memasukkan email dan nama ketik
+   - git config global --user.email "<email anad>"
+   - git config global --user.name "<nama anda>"
