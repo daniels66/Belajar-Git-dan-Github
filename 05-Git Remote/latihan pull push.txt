@@ -6,3 +6,11 @@ bagimana pull push bekerja
 3. buka repository di github
 4. hapus file delete
 5. buka terminal git push
+
+- menyelesaikan problem di push
+1. ketik git fetch pada terminal
+2. ketik git status, cek apakah diverged atau tidak
+3. ketik git pull
+4. selesaikan konflik yang terjadi
+5. lakukan commit
+6. git push dapat dilakukan
