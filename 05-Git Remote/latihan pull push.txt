@@ -7,7 +7,7 @@ bagimana pull push bekerja
 4. hapus file delete
 5. buka terminal git push
 
-- menyelesaikan problem delete data di github
+- apabila file di github ke delete
 1. buka git graph
 2. klik branch lokal yang berwarna merah (git)
    * file di github akan menjadi branch utama
