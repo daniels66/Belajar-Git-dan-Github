@@ -4,19 +4,19 @@
 3. git log --all --decorate --oneline --graph =
    akan menvisualisasikan brach seperti di github->insights->network
 4. git checkout <branch> = digunakan untuk pindah branch
-5. git branch -d <branch> = digunakan untuk menghapus branch yang telah di merged
+5. git branch -d <branch> = digunakan untuk menghapus branch yang telah di merge
 6. git branch -D <branch> = digunakan untuk menghapus branch
 
 merge dalam git dibedakan menjadi 2 yaitu:
 1. fast forward = berada dalam satu jalur
-2. three way merged = berbeda jalur
+2. three way merge = berbeda jalur
 * fast forward dan three way merge memakai command sama akan tetapi
 * kerja dibalik layar berbeda
 
 - git merge command
-1. git merged <branch> = digunakan untuk menggabungkan 2 brach
+1. git merge <branch> = digunakan untuk menggabungkan 2 brach
    pastikan head pointer tidak berapa pada branch yang digabungkan
    contoh: git merge siswa_laban
    pastikan head pointer tidak berada di branch siswa_laban
    apabila head pointer berada di branch siswa_laban gunakan git checkout <branch>
-2. git branch --merged = untuk mengetahui branch mana yang dimerged
+2. git branch --merge = untuk mengetahui branch mana yang dimerge
