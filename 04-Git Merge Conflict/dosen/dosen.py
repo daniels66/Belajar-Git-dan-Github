@@ -1,3 +1,3 @@
-dosen = ["mata kuliah", "telephone"]
+dosen = ["nama", "mata kuliah"]
 
-print(f"dosen mengajar {dosen[2]}, apabila ada pertanyaan hubungi {dosen[1]}")
+print(f"dosen {dosen[0]}, dosen mengajar {dosen[1]}")
