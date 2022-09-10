@@ -8,7 +8,8 @@
 7. git help = untuk memakai perintah dengan cepat
 8. git remove = untuk menghapus sebuah file
 9. git log = untuk mengetahui berapa banyak commit yang dilakukan
-10. dll
+10. git checkout = digunakan untuk menukar branch aktif ke branch yang dipilih
+11. dll
 
 - inisialisasi dan commit folder BELAJAR GIT DAN GITHUB
 1. buka terminal (ctrl + `) ketik git init
@@ -26,3 +27,9 @@ git rm --cached * (mengembalikan semua file yang track)
 1. ketik git log (akan memunculkan semua perubahan yang telah dilakukan)
 2. ketik git log -3 (akan memunculkan 3 perubahan terakhir)
 2. ketik git log -- <file> (akan memunculkan perubahan dalam file tersebut(dihapus,diedit))
+
+- mengembalikan file yang telah dihapus atau diedit
+1. mencari file dengan git log -- <file>
+2. tentukan pada commit berapa file tersebut ingin dikembalikan
+3. catat 5 char hash code  pada commit file yang ingin dikembalikan
+4. ketik git checkout <lima(5) char hash code> -- <file>
