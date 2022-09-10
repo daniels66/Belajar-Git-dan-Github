@@ -1,0 +1,3 @@
+-  git merge conflict terjadi dikarenakan terjadi perbedaan dalam 1 baris code
+   oleh karena itu sebagai pembuat harus lakukan solve manual
+   baris mana yang dipakai dan baris mana yang dibuang
