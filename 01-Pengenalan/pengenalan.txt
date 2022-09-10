@@ -1,0 +1,19 @@
+- git adalah sebuah software yang digunakan untuk mengelola perubahan 
+dalam sebuah folder atau biasa disebut dengan repository
+
+- riwayat perubahan tersebut disimpan dalam sebuah commit
+
+- github adalah sebuah cloud yang digunakan untuk menyimpan dan 
+mengelola repository dari git
+
+- istilah dalam git
+1. repository = folder suatu project
+2. commit = rekaman perubahan dalam suatu folder project
+3. hash = penanda unik pada saat commit sebuah file
+4. checkout = berpindah ke sebuah commit
+5. branch = sebuah cabang bebas dari commit utama
+6. merge = mengabungkan branch kedalam commit utama
+7. remote = sumber yang memiliki repository (github)
+8. clone = mengambil repository dari remote (github)
+9. push = mengirimkan commit ke repository
+10. pull = mengambil commit dari repository

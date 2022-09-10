@@ -1,0 +1,15 @@
+- macam-macam command (perintah git)
+1. git init = untuk melakukan inisialisasi older ke dalam git agar dapat dipantau perubahannya
+2. git add <file(s)> = untuk menambahakan file kedalam git agar dapat dilakukan commit
+3. git commit = untuk menyimpan perubahan dalam file agar dapat dipantau
+4. git status = untuk mengecek file, ada yang baru, hilang , dll
+5. git config = memasukkan konfigurasi kedalam git
+6. git branch = untuk membuat branch baru
+7. git help = untuk memakai perintah dengan cepat
+8. git remove = untuk menghapus sebuah file
+9. dll
+
+- inisialisasi folder BELAJAR GIT DAN GITHUB
+1. buka terminal (ctrl + `) ketik git init
+2. ketik git status apakah ada file yang belum di track
+3. jika file belum di track ketik git add * (menambahakan semua file yang bulum untrack)
