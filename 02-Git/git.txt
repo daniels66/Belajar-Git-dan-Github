@@ -7,7 +7,8 @@
 6. git branch = untuk membuat branch baru
 7. git help = untuk memakai perintah dengan cepat
 8. git remove = untuk menghapus sebuah file
-9. dll
+9. git log = untuk mengetahui berapa banyak commit yang dilakukan
+10. dll
 
 - inisialisasi dan commit folder BELAJAR GIT DAN GITHUB
 1. buka terminal (ctrl + `) ketik git init
@@ -20,3 +21,8 @@ git rm --cached * (mengembalikan semua file yang track)
 7. untuk memasukkan email dan nama ketik
    - git config global --user.email "<email anad>"
    - git config global --user.name "<nama anda>"
+
+- mengetahui berapa banyak commit
+1. ketik git log (akan memunculkan semua perubahan yang telah dilakukan)
+2. ketik git log -3 (akan memunculkan 3 perubahan terakhir)
+2. ketik git log -- <file> (akan memunculkan perubahan dalam file tersebut(dihapus,diedit))
