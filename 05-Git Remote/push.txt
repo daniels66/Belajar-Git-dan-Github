@@ -1,0 +1,7 @@
+- apabila ingin upload file dari git ke github
+1. pada github buat repository baru
+2. pastikan jangan centang file readme
+3. klik creat repository
+4. akan muncul quick setup
+5. copy command dalam
+   push and existing repository from the command line

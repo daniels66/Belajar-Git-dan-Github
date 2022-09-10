@@ -1,0 +1,8 @@
+- apabila terdapat eror pada saat push ke github
+1. ketik git fetch yang digunakan untuk cek repository dalam github
+   sama atau tidak dalam git lokal
+2. ketik git status, cek apakah diverged atau tidak
+3. ketik git pull
+4. selesaikan konflik yang terjadi
+5. lakukan commit
+6. git push dapat dilakukan

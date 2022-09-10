@@ -1,0 +1,6 @@
+- apabila kita ingin mengambil file dalam github
+1. buka folder repository, buka code, clone https
+2. copy https
+3. buka folder dimana ingin menaruh file clone dari github
+4. buka terminal ketik cd <folder yang diinginkan>
+5. didalam terminal ketik git clone <https>
