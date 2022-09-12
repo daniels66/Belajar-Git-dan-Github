@@ -1,0 +1,19 @@
+.git ignore = sebuah file yang  disimpan dalam repository git local
+agar pada saat melakukan commit terdapat file yang tidak dapat di commit
+yang kedepannya mungkin ada file yang tidak kita inginkan terbawa ke commit
+
+cara membuat .gitignore
+1. buka repository utama sebuah project
+2. buat file baru dengan nama .gitignore
+3. buka file dan ketik file atau folder mana yang tidak ingin dilakukan commit
+4. atau biar lebih mudah  masuk ketik di web browser
+   github.com/github/gitignore
+5. lebih mudah lagi ketik website
+   gitignore.io
+6. ketik operasi sistem yang digunakan (windows,mac,linux)
+7. ketik code editor yang digunakan (visual studio,visual studio code, sublime text)
+8. ketik bahasa yang digunakan
+
+- contoh file gitignore menggunakan operasi sistem linux, 
+  code editor visual studio code,
+  bahasa python
