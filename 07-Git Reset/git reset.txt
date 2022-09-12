@@ -1,0 +1,39 @@
+- git reset digunakan ketika ingin memindahkan repositori kembali 
+  ke comit tertentu dan membuang semua perubahan yang telah dibuat
+
+- cara menggunakan git reset
+1. ketik git log --oneline
+2. pilih commit mana yang ingin dimulai kembali
+{  
+   88d38b8 (HEAD -> master, origin/master) penjelasan tentang git ignore
+   fe85fd9 apabila file di github ke delete
+   33cbdcd apabila file di git kedelete
+   28fad15 Merge branch 'master' into eror1
+   7a20418 menyelesaikan problem di push
+   cfb48cd menghapus delete.py
+}
+3. copy 7 char hash code contoh (28fad15)
+4. ketik git reset <7 char hash code>
+{
+   28fad15 Merge branch 'master' into eror1
+   7a20418 menyelesaikan problem di push
+   cfb48cd menghapus delete.py
+}
+5. sebaiknya apabila ingin melakukan git reset sebaiknya 
+   membuat branch terlebih dahulu agar dapat melakukan undo reset
+
+- undo reset digunakan untuk kembali lagi ke commit yang telah diriset
+  undo reset dapat digunakan jika mengetahui 7 hash code commit terakhir
+  sebelum dilakukan reset, oleh karena itu apabila ingin reset sebaiknya
+  membuat branch baru terlebih dahulu
+  cara undo reset sama seperti reset
+1. ketik git checkout master
+2. pilih commit terakhir
+3. copy 7 char hash code
+4. ketik git checkout <branch>
+5. ketik git reset <7 char hash code>
+6. anda dapat memulai edit branch sebelum diriset
+7. sebenarnya anda dapat menghapus branch yang telah direset dan
+   membuat branch baru jika tidak ingin ribet seperti cara diatas
+8. oleh karena itu apabila ingin reset commit sebaiknya di lakukan
+   pada branch baru
