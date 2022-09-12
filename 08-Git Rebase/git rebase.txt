@@ -23,8 +23,10 @@ diatas adalah fast forward
 5. untuk rebase branch baru ke branch master agar berlaku fast forward,
     pastikan di dalam branch baru, ketik git rebase master 
     (rebase branch baru ke master)
-   * apabila terdapat konflik silahkan di solve
-6. jika dilihat di git graph branch akan seperti fast forward buka three way merge
-7. jika ingin mengabungkan master ke branch baru yang telah di rebase
-8. pindah ke branch master
-9. ketik git rebase <branch baru> (akan fast forward)
+6. apabila terdapat konflik silahkan di solve dan dilakukan commit kembali
+7. apabila masalah sudah di solve ketik git rebase --continue
+8. jika dilihat di git graph branch akan seperti fast forward buka three way merge
+9. jika ingin mengabungkan master ke branch baru yang telah di rebase
+10. pindah ke branch master
+11. ketik git rebase <branch baru> (akan fast forward)
+12. jangan lupa hapus branch yang telah di rebase
